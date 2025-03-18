@@ -87,7 +87,7 @@ header {
 /* Middle section */
 .main-middle-background {
   height: 3rem;
-  background-image: url(/image-asset/bg-curve-desktop.svg);
+  background-image: url(../image-asset/bg-curve-desktop.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
