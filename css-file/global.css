@@ -1,0 +1,12 @@
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+  color: hsl(243, 87%, 12%);
+  font-family: Open Sans, Raleway;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,294 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-inline-start: 5rem;
+  margin-inline-end: 5rem;
+  margin-block-start: 2rem;
+  margin-block-end: 5rem;
+}
+
+.fylo-logo {
+  width: 8rem;
+}
+
+.header-right-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3rem;
+  align-items: center;
+  justify-content: end;
+}
+
+/*hero section*/
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  margin-inline-start: 5rem;
+  margin-inline-end: 5rem;
+  margin-block-end: 10rem;
+}
+
+.header-illustraiton-container {
+  max-width: 20rem;
+}
+
+.header-illustration {
+  width: 100%;
+}
+
+.header-text-container {
+  max-width: 38rem;
+}
+
+.hero-header-text {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin-block-end: 1rem;
+  font-family: Raleway;
+}
+
+.hero-body-text {
+  margin-block-end: 2rem;
+}
+
+.email-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+  max-width: 35rem;
+}
+
+.email-field {
+  border: 1px solid hsl(243, 87%, 12%);
+  padding: 0.7rem 0.7rem;
+  color: hsl(0, 0%, 75%);
+  border-radius: 0.3rem;
+  margin-inline-end: 0.5rem;
+  width: 100%;
+}
+
+.get-started-button {
+  border: 0 solid;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  padding: 0.7rem 2.5rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.3rem 0.5rem hsl(240, 3%, 87%);
+}
+
+/* Middle section */
+/* .main-middle-background {
+  height: 8rem;
+  background-image: url(/image-asset/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+} */
+
+.middle-section-background {
+  background-color: hsl(240, 75%, 98%);
+  padding-block-end: 5rem;
+}
+
+.middle-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  margin-inline-start: 5rem;
+  margin-inline-end: 5rem;
+  margin-block-end: 7rem;
+
+  /* background-image: url(/image-asset/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.middle-illustration-container {
+  max-width: 20rem;
+}
+
+.middle-illustration {
+  width: 100%;
+}
+
+.middle-section-container {
+  max-width: 40rem;
+}
+
+.middle-header-text {
+  font-size: 2rem;
+  margin-block-end: 2rem;
+  font-family: Raleway;
+}
+
+.middle-body-text {
+  margin-block-end: 1rem;
+}
+
+.text-button-container {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr;
+  align-items: center;
+}
+
+.text-button {
+  color: hsl(170, 45%, 43%);
+}
+
+.green-underline {
+  background-color: hsl(170, 45%, 43%);
+  width: 10.3rem;
+  height: 0.06rem;
+  margin-block-start: 0.3rem;
+}
+
+.review-container {
+  background-color: white;
+  padding: 2rem 2rem;
+  border-radius: 0.5rem;
+  margin-block-start: 2.5rem;
+  width: 42%;
+}
+
+.review-main-text {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  margin-block-start: 0.5rem;
+}
+
+.reviewer-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin-block-start: 1.5rem;
+}
+
+.review-avatar {
+  width: 3rem;
+  border-radius: 2.5rem;
+  margin-inline-end: 1rem;
+}
+
+.review-header-text {
+  font-weight: bold;
+}
+
+.review-header-body {
+  font-size: 0.8rem;
+}
+
+/*middle section*/
+.email-section-container {
+  background-color: hsl(238, 22%, 44%);
+}
+
+.email-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  margin-inline-start: 5rem;
+  margin-inline-end: 5rem;
+  padding-block-start: 5rem;
+  padding-block-end: 5rem;
+}
+
+.email-section-section {
+  max-width: 25rem;
+}
+
+.email-section-header {
+  width: 100%;
+  margin-bottom: 1rem;
+  font-family: Raleway;
+  color: white;
+}
+
+.email-section-body {
+  width: 100%;
+  color: white;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+.get-started-button-email {
+  border: 0 solid;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  padding: 0.7rem 2.5rem;
+  border-radius: 0.3rem;
+  width: 50%;
+}
+
+.email-container-section {
+  display: grid;
+  gap: 1rem;
+  max-width: 35rem;
+}
+
+.email-field-section {
+  border: 1px solid hsl(243, 87%, 12%);
+  padding: 0.7rem 0.7rem;
+  color: hsl(0, 0%, 75%);
+  border-radius: 0.3rem;
+  width: 100%;
+}
+
+/* footer section */
+.footer-section {
+  background-color: hsl(243, 87%, 12%);
+  padding-inline-start: 5rem;
+  padding-inline-end: 5rem;
+  padding-block-start: 5rem;
+  padding-block-end: 5rem;
+}
+
+.footer-logo-container {
+  max-width: 30rem;
+  margin-block-end: 2rem;
+}
+
+.footer-logo {
+  max-width: 30%;
+}
+
+/*sub footer*/
+.sub-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: top;
+  gap: 3rem;
+}
+
+.phone-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin-block-end: 1.5rem;
+}
+
+.email-address-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.phone-icon,
+.email-icon {
+  margin-inline-end: 1rem;
+}
+
+.email-icon {
+  margin-block-start: 0.3rem;
+}
+
+.footer-text,
+.footer-text-first {
+  color: white;
+}
+
+.footer-text-first {
+  margin-block-end: 1rem;
+}
