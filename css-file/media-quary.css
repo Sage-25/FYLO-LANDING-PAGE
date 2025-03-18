@@ -1,0 +1,152 @@
+@media (max-width: 750px) {
+  header {
+    grid-template-columns: 10rem 1fr;
+    margin-inline-start: 1.5rem;
+    margin-inline-end: 1.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .fylo-logo {
+    width: 5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-right-container {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .hero-section {
+    grid-template-columns: none;
+    gap: 3.5rem;
+    margin-inline-start: 1.5rem;
+    margin-inline-end: 1.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-text-container {
+    order: 1;
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .hero-header-text {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .email-container {
+    grid-template-columns: none;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .email-field {
+    margin-inline-end: 0;
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .get-started-button {
+    cursor: none;
+    transition: none;
+    width: 85%;
+  }
+}
+
+@media (max-width: 750px) {
+  .main-middle-background {
+    height: 2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .middle-section {
+    grid-template-columns: none;
+    margin-inline-start: 1.5rem;
+    margin-inline-end: 1.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .middle-section-container {
+    order: 1;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .middle-header-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .review-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .email-section {
+    grid-template-columns: none;
+    gap: 2rem;
+    margin-inline-start: 1.5rem;
+    margin-inline-end: 1.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .email-section-section {
+    max-width: 40rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .get-started-button-email {
+    width: 85%;
+  }
+}
+
+@media (max-width: 750px) {
+  .email-container-section {
+    gap: 0.5rem;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .email-field-section {
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer-section {
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .sub-footer {
+    grid-template-columns: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer-icons {
+    text-align: center;
+  }
+}
