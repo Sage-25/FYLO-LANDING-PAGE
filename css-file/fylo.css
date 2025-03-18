@@ -7,6 +7,14 @@ header {
   margin-block-end: 5rem;
 }
 
+@media (max-width: 750px) {
+  header {
+    grid-template-columns: 10rem 1fr;
+    margin-inline-start: 1.5rem;
+    margin-inline-end: 1.5rem;
+  }
+}
+
 .fylo-logo {
   width: 8rem;
 }
@@ -17,6 +25,12 @@ header {
   gap: 3rem;
   align-items: center;
   justify-content: end;
+}
+
+@media (max-width: 750px) {
+  .header-right-container {
+
+  }
 }
 
 /*hero section*/
@@ -30,6 +44,14 @@ header {
   margin-block-end: 10rem;
 }
 
+@media (max-width: 750px) {
+  .hero-section {
+    grid-template-columns: none;
+    margin-inline-start: 1.5rem;
+    margin-inline-end: 1.5rem;
+  }
+}
+
 .header-illustraiton-container {
   max-width: 20rem;
 }
@@ -40,6 +62,13 @@ header {
 
 .header-text-container {
   max-width: 38rem;
+}
+
+@media (max-width: 750px) {
+  .header-text-container {
+    order: 1;
+    text-align: center;
+  }
 }
 
 .hero-header-text {
@@ -60,6 +89,13 @@ header {
   max-width: 35rem;
 }
 
+@media (max-width: 750px) {
+  .email-container {
+    grid-template-columns: none;
+    gap: 0.5rem;
+  }
+}
+
 .email-field {
   border: 1px solid hsl(243, 87%, 12%);
   padding: 0.7rem 0.7rem;
@@ -69,6 +105,13 @@ header {
   width: 100%;
 }
 
+@media (max-width: 750px) {
+  .email-field {
+    margin-inline-end: 0;
+    width: 80%;
+  }
+}
+
 .get-started-button {
   border: 0 solid;
   background-color: hsl(224, 93%, 58%);
@@ -76,15 +119,29 @@ header {
   padding: 0.7rem 2.5rem;
   border-radius: 0.3rem;
   box-shadow: 0 0.3rem 0.5rem hsl(240, 3%, 87%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+@media (max-width: 750px) {
+  .get-started-button {
+    cursor: none;
+    transition: none;
+    width: 85%;
+  }
+}
+
+.get-started-button:hover {
+  background-color: hsl(224, 83%, 72%);
 }
 
 /* Middle section */
-/* .main-middle-background {
-  height: 8rem;
+.main-middle-background {
+  height: 3rem;
   background-image: url(/image-asset/bg-curve-desktop.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-} */
+}
 
 .middle-section-background {
   background-color: hsl(240, 75%, 98%);
@@ -105,6 +162,14 @@ header {
   background-size: contain; */
 }
 
+@media (max-width: 750px) {
+  .middle-section {
+    grid-template-columns: none;
+    margin-inline-start: 1.5rem;
+    margin-inline-end: 1.5rem;
+  }
+}
+
 .middle-illustration-container {
   max-width: 20rem;
 }
@@ -115,6 +180,13 @@ header {
 
 .middle-section-container {
   max-width: 40rem;
+}
+
+@media (max-width: 750px) {
+  .middle-section-container {
+    order: 1;
+    justify-items: center;
+  }
 }
 
 .middle-header-text {
@@ -195,8 +267,25 @@ header {
   padding-block-end: 5rem;
 }
 
+@media (max-width: 750px) {
+  .email-section {
+    grid-template-columns: none;
+    gap: 2rem;
+    justify-items: center;
+    margin-inline-start: 1.5rem;
+    margin-inline-end: 1.5rem;
+  }
+}
+
 .email-section-section {
   max-width: 25rem;
+}
+
+@media (max-width: 750px) {
+  .email-section-section {
+    max-width: 40rem;
+    text-align: center;
+  }
 }
 
 .email-section-header {
@@ -220,12 +309,26 @@ header {
   padding: 0.7rem 2.5rem;
   border-radius: 0.3rem;
   width: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.get-started-button-email:hover {
+  background-color: hsl(224, 83%, 72%);
 }
 
 .email-container-section {
   display: grid;
   gap: 1rem;
   max-width: 35rem;
+}
+
+@media (max-width: 750px) {
+  .email-container-section {
+    gap: 0.5rem;
+    max-width: 30rem;
+    justify-items: center;
+  }
 }
 
 .email-field-section {
