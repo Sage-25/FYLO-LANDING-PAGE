@@ -195,6 +195,13 @@ header {
   font-family: Raleway;
 }
 
+@media (max-width: 750px) {
+  .middle-header-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
 .middle-body-text {
   margin-block-end: 1rem;
 }
@@ -222,6 +229,12 @@ header {
   border-radius: 0.5rem;
   margin-block-start: 2.5rem;
   width: 42%;
+}
+
+@media (max-width: 750px) {
+  .review-container {
+    width: 80%;
+  }
 }
 
 .review-main-text {
@@ -319,14 +332,16 @@ header {
 
 .email-container-section {
   display: grid;
+  grid-template-columns: 1fr;
   gap: 1rem;
-  max-width: 35rem;
+  /* max-width: 35rem; */
 }
 
 @media (max-width: 750px) {
   .email-container-section {
     gap: 0.5rem;
-    max-width: 30rem;
+    max-width: auto;
+    /* max-width: 30rem; */
     justify-items: center;
   }
 }
@@ -348,6 +363,13 @@ header {
   padding-block-end: 5rem;
 }
 
+@media (max-width: 750px) {
+  .footer-section {
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+  }
+}
+
 .footer-logo-container {
   max-width: 30rem;
   margin-block-end: 2rem;
@@ -363,6 +385,12 @@ header {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: top;
   gap: 3rem;
+}
+
+@media (max-width: 750px) {
+  .sub-footer {
+    grid-template-columns: none;
+  }
 }
 
 .phone-container {
@@ -394,4 +422,10 @@ header {
 
 .footer-text-first {
   margin-block-end: 1rem;
+}
+
+@media (max-width: 750px) {
+  .footer-icons {
+    text-align: center;
+  }
 }
